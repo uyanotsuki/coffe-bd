@@ -19,8 +19,8 @@ nav {
   justify-content: flex-start;
   align-items: center;
   margin: 0px auto;
-  width: 100%;
-  max-width: 1800px;
+  width: 96%;
+  max-width: 96%;
   min-height: 80px;
   box-sizing: border-box;
 }
@@ -49,19 +49,19 @@ a:hover {
 }
 
 .imglogo {
-  width: 230px;
+  width: 175%;
 }
 
 /* main */
 /* фото на главной стр */
 .image-container {
   position: fixed;
-  top: 200px;
-  left: 155px;
+  top: 170px;
+  left: 150px;
 }
 
 .image-container img {
-  width: 530px;
+  width: 70%;
   height: auto;
 }
 
@@ -70,13 +70,13 @@ a:hover {
   position: fixed;
   top: 300px;
   right: 200px;
-  font-size: 96px;
+  font-size: 82px;
   font-weight: 450;
   display: block;
   text-align: right;
 }
 .zagolovok2 {
-  top: 410px;
+  top: 380px;
   font-weight: 450;
 }
 
@@ -84,9 +84,9 @@ a:hover {
   display: inline-block;
   position: absolute;
   font-family: 'Montserrat';
-  top: 540px;
+  top: 500px;
   right: 200px;
-  padding: 14px 60px;
+  padding: 15px 60px;
   font-size: 26px;
   text-align: center;
   text-decoration: none;
