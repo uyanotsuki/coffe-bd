@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Raleway';
+  background-color: #ffffff;
+}
+/* блок шапки сайта */
+header {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1800px;
+  min-height: 80px;
+  box-sizing: border-box;
+}
+
+nav a {
+  display: block;
+  padding: 0px 10px;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.leftlink, .rightlink {
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+.centlogo{
+  margin: 0px auto;
+  width: 150px;
+  height: auto;
+}
+
+.imglogo {
+  width: 230px;
+}
+
+/* main */
+/* фото на главной стр */
+.image-container {
+  position: fixed;
+  top: 200px;
+  left: 155px;
+}
+
+.image-container img {
+  width: 530px;
+  height: auto;
+}
+
+/* заголовок */
+.zagolovok, .zagolovok2 {
+  position: fixed;
+  top: 300px;
+  right: 200px;
+  font-size: 96px;
+  font-weight: 450;
+  display: block;
+  text-align: right;
+}
+.zagolovok2 {
+  top: 410px;
+  font-weight: 450;
+}
+
+.btn {
+  display: inline-block;
+  position: absolute;
+  font-family: 'Montserrat';
+  top: 540px;
+  right: 200px;
+  padding: 14px 60px;
+  font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
